@@ -11,7 +11,7 @@ public class ExamenETS {
     public static void main(String[] args) {
         Suma();
         Resta();
-        Multiplicacion();
+        Multipli();
         Division();
     }
 
@@ -29,7 +29,7 @@ public class ExamenETS {
         System.out.println("Operación dividir = " + dividir);
     }
 
-    public static void Multiplicacion() throws NumberFormatException {
+    public static void Multipli() throws NumberFormatException {
         double Multiplicacion1;
         String multi1 = "";
         Multiplicacion1 = Double.parseDouble(multi1);
